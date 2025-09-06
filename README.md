@@ -1,2 +1,22 @@
 # Custom-Unidirectional-Motor-Drivers-
-This repository contains LTspice simulations, schematics, and example firmware for motor driver development. Includes H-bridge designs, PWM control, and microcontroller integration (ESP32, Arduino, STM32) for robotics and automation projects.
+
+This repository contains custom motor driver designs and firmware for robotics projects.  
+It includes hardware schematics, LTspice simulations, and microcontroller code for DC motor control.
+
+## Structure
+- `hardware/` → LTspice schematics, PCB files
+- `firmware/` → ESP32, STM32, Arduino code
+- `examples/` → Example robot/motor test projects
+- `docs/` → Diagrams, block schematics, documentation
+
+## Features
+- PWM speed control
+- Forward/Reverse direction
+- Supports ESP32, Arduino, STM32
+- Example quadcopters, path finder bots
+
+## License
+- **MIT** (for firmware/code)  
+- **CERN-OHL-S v2** (for hardware schematics/PCB)
+
+---
